@@ -1,1 +1,12 @@
+# Integration Standards & Guidelines
+
+> Documentation for standardized API, Event, Files, Data Views, MCP, A2A integrations, and more.
+
+## Mandatory Standards
+- [API Naming](standards/api-naming.md): Strict URL and method rules.
+- [RFC Compliance](standards/rfc-compliance.md): Mandatory data formats.
+
+## Guidelines & Best Practices
+- [Event Design](guidelines/event-design.md): How to structure Kafka events.
+- [Pagination](guidelines/pagination.md): Recommended ways to handle large datasets.
 
