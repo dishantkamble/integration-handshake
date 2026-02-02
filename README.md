@@ -15,3 +15,7 @@
 │   └── error-handling.md
 └── mcp-config.json     # The Bridge: Config to expose the above via MCP
 ```
+
+## TODO
+
+Use [docs-mcp](https://github.com/probelabs/docs-mcp) to convert this repo to MCP server
