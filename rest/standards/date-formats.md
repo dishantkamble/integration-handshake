@@ -22,3 +22,9 @@ All timestamps transmitted across any interface **MUST** follow the ISO-8601 for
 ### ✅ Correct
 ```json
 { "created_at": "2023-10-27T10:00:00Z" }
+```
+
+### ❌ Incorrect
+```json
+{ "created_at": "1698393600" }
+```
