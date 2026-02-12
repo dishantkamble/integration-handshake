@@ -1,12 +1,20 @@
 ---
-id: STD-001
-title: ISO-8601 Date Compliance
-status: mandatory
-channels: [api, events, a2a, mcp]
-last_updated: 2023-10-27
+"@context": "https://schema.org"
+"@type": "IntegrationStandard"
+"id": INTG-STD-001
+"name": Date Format
+"compliance": {
+  "@type": "Compliant As Per",
+  "ISO": ISO-8601,
+  "IEEE": "-",
+  "RFC": "-",
+}
+"status": MANDATORY
+"channels": [api, events, a2a, mcp]
+"last_updated": 2023-10-27
 ---
 
-# ISO-8601 Date Compliance
+# Date Format
 
 ## Definition
 All timestamps transmitted across any interface **MUST** follow the ISO-8601 format using UTC.
